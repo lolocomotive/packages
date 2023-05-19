@@ -65,7 +65,7 @@ class FadeScaleTransitionConfiguration extends ModalConfiguration {
   /// a dismissible barrier. [barrierDismissible] cannot be null. If
   /// [barrierDismissible] is true, the [barrierLabel] cannot be null.
   const FadeScaleTransitionConfiguration({
-    super.barrierColor = Colors.black54,
+    super.barrierColor = Colors.green,
     super.barrierDismissible = true,
     super.transitionDuration = const Duration(milliseconds: 150),
     super.reverseTransitionDuration = const Duration(milliseconds: 75),
